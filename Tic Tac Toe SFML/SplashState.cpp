@@ -2,6 +2,8 @@
 #include <sstream>
 #include <iostream>
 #include "definitions.h"
+
+#include "mainMenu.h"
 namespace stobon
 {
 	SplashState::SplashState(gameDataReference p_data) : data(p_data)
@@ -31,7 +33,7 @@ namespace stobon
 		if (this->clock.getElapsedTime().asSeconds() > SPLASH_STATE_SHOW_TIME)
 		{
 			//Switch to menu
-			std::cout << "Go to menu" << std::endl;
+			this->data->stateMachine.AddStates(StateReference(new MainMenuState(data)), true);
 		}
 	}
 
