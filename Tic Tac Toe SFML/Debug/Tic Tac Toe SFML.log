@@ -1,5 +1,3 @@
-﻿  main.cpp
-  mainMenu.cpp
-  SplashState.cpp
-  Generating Code...
-  Tic Tac Toe SFML.vcxproj -> C:\Users\simon\Documents\Programming\Tic Tac Toe\Tic Tac Toe SFML\Debug\Tic Tac Toe SFML.exe
+﻿  mainMenu.cpp
+C:\Users\simon\Documents\Programming\GitHub\Tic-Tac-Toe\Tic Tac Toe SFML\mainMenu.cpp(27,126): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Tic Tac Toe SFML.vcxproj -> C:\Users\simon\Documents\Programming\GitHub\Tic-Tac-Toe\Debug\Tic Tac Toe SFML.exe

@@ -3,7 +3,6 @@
 #include <map>
 
 #include <SFML/Graphics.hpp>
-
 namespace stobon
 {
 	class AssetManagement

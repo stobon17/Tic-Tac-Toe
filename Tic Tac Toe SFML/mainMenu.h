@@ -21,5 +21,6 @@ namespace stobon
 		sf::Sprite background, playButton, playButtonOuter, title;
 
 
+
 	};
 }

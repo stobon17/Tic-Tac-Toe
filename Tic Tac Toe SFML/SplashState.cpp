@@ -6,9 +6,10 @@
 #include "mainMenu.h"
 namespace stobon
 {
+
 	SplashState::SplashState(gameDataReference p_data) : data(p_data)
 	{
-
+	
 	}
 
 	void SplashState::Initialize() 
@@ -16,6 +17,7 @@ namespace stobon
 		this->data->assets.LoadTexture("Splash State Background", SPLASH_STATE_BACKGROUND_FILEPATH);
 
 		background.setTexture(this->data->assets.GetTexture("Splash State Background"));
+		
 	}
 
 	void SplashState::HandleInput()
@@ -42,5 +44,6 @@ namespace stobon
 		this->data->gameWindow.clear(sf::Color::Blue);
 		this->data->gameWindow.draw(this->background);
 		this->data->gameWindow.display();
+		
 	}
 }

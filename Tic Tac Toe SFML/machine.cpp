@@ -16,7 +16,7 @@ namespace stobon
 
 	void StateMachine::UpdateChanges()
 	{
-		if (this->isRemoving && this->numStates.empty())
+		if (this->isRemoving && !this->numStates.empty())
 		{
 			this->numStates.pop();
 			if (!this->numStates.empty())
